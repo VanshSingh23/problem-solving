@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+    int r;
+    printf("enter the radius\n");
+    scanf("%d",&r);
+    int area;
+    area=2*r*r;
+    printf("the area of rectangle inside a circle is:%d",area);
+}    
